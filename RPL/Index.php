@@ -130,7 +130,8 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Login/Register</a></li>
+                <li><a href="loginregister.php">Login/Register</a></li> <!-- Link ke login_register -->
+                </ul>
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
                 rel="style.css">
             </ul>
