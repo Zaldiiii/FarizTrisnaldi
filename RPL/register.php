@@ -5,7 +5,7 @@ $user = 'root';
 $password = ''; // Kosongkan jika tidak ada password
 $dbname = 'toko_baju';
 
-$conn = new mysql($host, $user, $password, $dbname);
+$conn = new mysqli($host, $user, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
